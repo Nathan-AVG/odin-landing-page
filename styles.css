@@ -1,0 +1,286 @@
+@font-face {
+    font-family: star;
+    src: url(fonts/Stardew_Valley.ttf);
+}
+
+body{
+    font-family: star;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+/*sec1*/
+.sec1{
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/Screenshot\ 2022-08-20\ 204237.png);
+    background-size: cover;
+    background-color: rgb(5, 19, 52);
+    padding: 20px 0 100px 0;
+    gap: 100px;
+}
+
+/*navi*/
+.navi{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20%;
+    flex-shrink: 0; 
+}
+
+.navi-right{
+    display: flex;
+    gap: 30px;
+}
+
+.logo{
+    
+    color: rgb(199, 104, 56);
+}
+
+.navi-right div{
+    font-size: 20px;
+    color: rgb(252, 252, 252);
+}
+
+.navi-right div:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+/*hero*/
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20%;
+    gap: 20px;
+}
+
+.hero .words{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 400px;
+}
+
+.hero .title{
+    font-size: 50px;
+    color: rgb(199, 104, 56);
+}
+
+.hero .text{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.hero .button{
+    background-color: rgb(67, 46, 2);
+    color: rgb(199, 104, 56);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: star;
+    font-size: 20px;
+    align-self: flex-start;
+}
+
+.hero .button:hover{
+    background-color: rgb(120, 55, 22);;
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: all 0.7s ease;
+}
+
+.hero .image{
+    background-image: url(images/game-preview.png);
+    background-size: cover;
+    border: 3px solid white;
+    width: 490px;
+    padding: 0;
+}
+
+/*sec2*/
+.sec2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-image: linear-gradient(to right, black , rgb(0,1,48) 50%, black);
+    background-size: cover;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+}
+
+.sec2 .title{
+    font-size: 70px;
+    color: rgb(152, 92, 215);
+    margin: 30px 0;
+    text-shadow: 0px 0px 5px black, 0px 0px 20px rgb(26, 6, 37), 0px 0px 40px rgb(211, 148, 228);
+}
+
+.cards-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+
+.cards{
+    border: 5px solid rgb(120, 55, 22);
+    background-color: rgb(214, 163, 100);
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.cards:hover{
+    background-color: rgb(120, 55, 22);;
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: all 0.7s ease;
+}
+
+.cards .images{
+    background-color: aqua;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+.cards .text{
+    flex: 1;
+    padding: 10px;
+    color: white;
+}
+
+.c2{
+    border: 5px solid rgb(9, 48, 60);
+    background-color: rgb(180, 224, 230);
+}
+
+.c3{
+    border: 5px solid rgb(72, 10, 37);
+    background-color: rgb(224, 146, 212);
+}
+
+.c4{
+    border: 5px solid rgb(5, 46, 26);
+    background-color: rgb(63, 97, 51);
+}
+
+.p1{
+    background-image: url(images/animalss.jpg);
+}
+
+.p2{
+    background-image: url(images/fishing.jpg);
+}
+
+.p3{
+    background-image: url(images/people.jpg);
+}
+
+.p4{
+    background-image: url(images/farming.jpg);
+}
+
+/*sec3*/
+
+.sec3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 90px 0;
+    background-color: rgb(233, 230, 230);
+}
+
+.sec3 .images{
+    height: 240px;
+    width: 240px;
+    background-image: url(images/awards.png);
+    background-size: cover;
+}
+
+.sec3 .text{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.quote{
+    color: darkgrey;
+    font-size: 30px;
+}
+
+.author{
+    font-size: 20px;
+    text-align: right;
+    margin-top: 12px;
+    margin-right: 20px;
+    color: rgb(104, 102, 102);
+}
+
+/*sec4*/
+.sec4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    background-color: black;
+    background-image: url(images/morning.jpeg);
+    background-size: cover;
+}
+
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(8, 8, 47);
+}
+
+.container .words .title{
+    font-size: 35px;
+}
+
+.container button{
+    border: 2px solid burlywood;
+    background-color: rgb(67, 46, 2);
+    color: rgb(199, 104, 56);
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-family: star;
+    font-size: 20px;
+}
+
+.container button:hover{
+    background-color: rgb(120, 55, 22);;
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: all 0.7s ease;
+}
+
+/*footer*/
+.footer{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(4, 4, 39);
+}
+
+
+
+
+
+
